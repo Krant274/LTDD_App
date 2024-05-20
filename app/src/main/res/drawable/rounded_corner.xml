@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Định dạng màu nền của hình dạng -->
+    <solid android:color="@android:color/white" />
+    <!-- Định dạng góc bo tròn -->
+    <corners android:radius="16dp" />
+    <!-- Định dạng viền xung quanh hình dạng -->
+    <stroke
+        android:width="2dp"
+        android:color="@android:color/darker_gray" />
+</shape>

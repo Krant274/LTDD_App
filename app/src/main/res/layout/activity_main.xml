@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_menu"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFCC"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/button_menu"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:layout_margin="4dp"
+            android:padding="16dp"
+            android:src="@drawable/menu_imagebutton"
+            android:scaleType="centerInside"
+            android:contentDescription="@drawable/menu_imagebutton"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+        <ImageButton
+            android:id="@+id/button_Don"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:layout_margin="4dp"
+            android:padding="16dp"
+            android:src="@drawable/list_imagebutton"
+            android:scaleType="centerInside"
+            android:contentDescription="@drawable/list_imagebutton"
+            android:backgroundTint="@android:color/holo_green_light"/>
+
+        <ImageButton
+            android:id="@+id/button_setting"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:contentDescription="@drawable/settings_imagebutton"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/settings_imagebutton"
+            android:backgroundTint="@android:color/holo_orange_light"/>
+
+        <ImageButton
+            android:id="@+id/button_logout"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:layout_margin="4dp"
+            android:padding="16dp"
+            android:src="@drawable/logout_imagebutton"
+            android:scaleType="centerInside"
+            android:contentDescription="@drawable/logout_imagebutton"
+            android:backgroundTint="@android:color/holo_red_light" />
+    </LinearLayout>
+
+</RelativeLayout>

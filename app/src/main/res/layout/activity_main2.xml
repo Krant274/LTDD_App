@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity2">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_menu"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFCC"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_menu"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:layout_margin="4dp"
+            android:padding="16dp"
+            android:src="@drawable/menu_imagebutton"
+            android:scaleType="centerInside"
+            android:contentDescription="@drawable/menu_imagebutton"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+        <ImageButton
+            android:id="@+id/button_don"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:layout_margin="4dp"
+            android:padding="16dp"
+            android:src="@drawable/list_imagebutton"
+            android:scaleType="centerInside"
+            android:contentDescription="@drawable/list_imagebutton"
+            android:backgroundTint="@android:color/holo_green_light"/>
+
+
+        <ImageButton
+            android:id="@+id/button_logout"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:layout_margin="4dp"
+            android:padding="16dp"
+            android:src="@drawable/logout_imagebutton"
+            android:scaleType="centerInside"
+            android:contentDescription="@drawable/logout_imagebutton"
+            android:backgroundTint="@android:color/holo_red_light" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
