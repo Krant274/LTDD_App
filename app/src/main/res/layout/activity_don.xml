@@ -26,8 +26,8 @@
             android:layout_weight="1"
             android:background="@drawable/rounded_corner"
             android:contentDescription="@string/processing_description"
-            android:scaleType="centerCrop"
-            android:src="@drawable/doanvat" />
+            android:scaleType="fitXY"
+            android:src="@drawable/processing" />
 
         <ImageButton
             android:id="@+id/iBtnProcessed"
@@ -37,8 +37,8 @@
             android:layout_weight="1"
             android:background="@drawable/rounded_corner"
             android:contentDescription="@string/processed_description"
-            android:scaleType="centerCrop"
-            android:src="@drawable/drink" />
+            android:scaleType="fitXY"
+            android:src="@drawable/processed" />
 
     </LinearLayout>
 
@@ -49,7 +49,7 @@
         android:layout_marginBottom="50dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_backtomainpage"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/left_menu">
 
