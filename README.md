@@ -4,7 +4,7 @@ Meanwhile, managers can monitor order statuses, track employee performance, and 
 The application provides a solution to enhance service quality and operational efficiency for the restaurant.
 
 > username:password
->> admim:admin
+>> admin:admin
 >> nhanvien1:nhanvien1
 
 
