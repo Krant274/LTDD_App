@@ -215,10 +215,4 @@ public class LoginActivity extends AppCompatActivity {
             finish();
         }
     }
-
-    private void handleSuccessfulLogout() {
-        SharedPrefManager.getInstance(getApplicationContext()).clearAllData();
-        finishAffinity(); // Clear entire task stack
-        startActivity(new Intent(LoginActivity.this, LoginActivity.class));
-    }
 }
