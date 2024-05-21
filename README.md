@@ -3,9 +3,9 @@ Waitstaff can easily take and send customer orders directly to the kitchen quick
 Meanwhile, managers can monitor order statuses, track employee performance, and ensure all orders are completed on time. 
 The application provides a solution to enhance service quality and operational efficiency for the restaurant.
 
-username:password
-> admim:admin
-> nhanvien1:nhanvien1
+> username:password
+>> admim:admin
+>> nhanvien1:nhanvien1
 
 
 
